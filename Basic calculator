@@ -1,0 +1,25 @@
+package Basic1_java;
+import java.util.Scanner;
+
+class calculator {
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter a:");
+		int a = sc.nextInt();
+		
+		System.out.println("Enter b:");
+		int b = sc.nextInt();
+		
+		int add = a+b;
+		int product = a*b;
+		float divide = a/b;
+		int substract=a-b;
+		
+		System.out.println("a+b=" +add);
+		System.out.println("a*b=" +product);
+		System.out.println("a/b=" +divide);
+		System.out.println("a-b=" +substract);
+	}
+
+}
