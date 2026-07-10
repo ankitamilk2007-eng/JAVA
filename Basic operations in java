@@ -1,0 +1,29 @@
+package Basic1_java;
+import java.util.Scanner;
+
+public class ankita {
+
+	public static void main(String[] args) {
+		System.out.println("Hello Java");
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Student Name");
+		String Name = sc.next();
+		System.out.println("Enter Branch");
+		String Branch = sc.next();
+		System.out.println("Student information:");
+		System.out.println("Student Name:" +Name);
+		System.out.println("Student Branch:" +Branch);
+		
+		System.out.println("Enter value of A:");
+		int A = sc.nextInt();
+		
+		System.out.println("Enter value of B:");
+		int B = sc.nextInt();
+		
+		int c=A+B;
+		
+		System.out.println("Addition of A and B:" +c);
+	}
+
+}
